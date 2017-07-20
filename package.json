@@ -1,33 +1,36 @@
 {
-  "name": "simplehash",
-  "version": "0.1.0",
-  "description": "Simple string hashing wrapper over xxhash for node.js",
-  "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SebastianSativa/simplehash.git"
-  },
-  "keywords": [
-    "simple",
-    "string",
-    "hash",
-    "xxhash",
-    "node",
-    "js",
-    "node.js"
-  ],
-  "author": "Sebastian Sativa",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SebastianSativa/simplehash/issues"
-  },
-  "homepage": "https://github.com/SebastianSativa/simplehash#readme"
+	"name": "simplehash",
+	"version": "0.1.0",
+	"description": "Simple string hashing wrapper over xxhash for node.js",
+	"main": "index.js",
+	"directories": {
+		"example": "examples",
+		"lib": "lib",
+		"test": "test"
+	},
+	"scripts": {
+		"test": "make test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SebastianSativa/simplehash.git"
+	},
+	"dependencies": {
+		"xxhash": "5.3.0"
+	},
+	"keywords": [
+		"simple",
+		"string",
+		"hash",
+		"xxhash",
+		"node",
+		"js",
+		"node.js"
+	],
+	"author": "Sebastian Sativa",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SebastianSativa/simplehash/issues"
+	},
+	"homepage": "https://github.com/SebastianSativa/simplehash#readme"
 }
